@@ -9,7 +9,7 @@ export default {
   head: {
     title: 'lykkepromilla',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'no',
     },
     meta: [
       { charset: 'utf-8' },
