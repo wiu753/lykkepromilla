@@ -1,79 +1,69 @@
 <template>
-<!-- NEED TO ADD MAIN PART TO A COMPONENT, AND THE STUFF THAT SHOULD LOAD WHEN U CLICK MOBILE BUTTON TO A COMPONENT
-THEN LOAD IT LIKE MATT SITE -->
-  <div class="flex flex-col">
-    <MobileMenu :class="mobileMenu ? 'block' : 'hidden'" />
+  <div>
     <div
-      class="h-screen bg-gradient-to-b from-yellow-200 via-yellow-300 to-yellow-500 px-2 pt-2"
+      class="h-screen bg-gradient-to-b from-yellow-200 via-yellow-300 to-yellow-500 flex flex-col place-content-between"
     >
       <div class="flex flex-col">
-        <header class="flex place-content-between">
-          <img
-            class="h-14 w-14"
-            src="~/assets/lykkepromilla_logo.png"
-            alt="Lykkepromilla logo"
-          />
-          <!-- <div class="flex">
-            <img
-              class="h-8 w-8 mr-3"
-              src="~/assets/instagram.svg"
-              alt="Instagram icon"
-            />
-            <img class="h-8 w-8" src="~/assets/email.svg" alt="Email icon" />
-          </div> -->
-          <div class="flex items-center py-4 sm:hidden">
-            <button
-              class="inline-flex items-center justify-center text-gray-400 ease-in-out rounded-md focus:outline-none"
-              aria-label="Main menu"
-              aria-expanded="false"
-              @click="toggleMobileMenu"
-            >
-              <!-- Icon when menu is closed. -->
-              <svg
-                v-show="!mobileMenu"
-                class="block w-6 h-6"
-                stroke="currentColor"
-                fill="none"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
-              <!-- Icon when menu is open. -->
-              <svg
-                v-show="mobileMenu"
-                class="w-6 h-6"
-                stroke="currentColor"
-                fill="none"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
-          </div>
+        <header class="ml-2 mt-2">
+          <Logo />
         </header>
-        <div class="mt-36 text-center">
-          <p class="punchline text-l font-bold">
+
+        <!-- Hovedtekst -->
+        <div class="flex flex-col items-center mt-52">
+          <p class="text-l font-bold">
             Fire lærerstudenter som bare prater sjit.
           </p>
-          <h1 class="punchline text-6xl font-bold mt-20 flex flex-col">
+          <h1 class="text-6xl font-bold flex flex-col">
             <span>LYKKE</span><span class="-mt-10">PROMILLA</span>
           </h1>
-          <div><span>Spotify </span><span>Apple</span></div>
+          <div class="flex justify-center">
+            <span
+              ><a
+                href="https://open.spotify.com/show/3HQXcnXX9anhUwD88Z8WPC?si=72a23786e8a942cf"
+                ><SpotifySVG class="mr-2"
+              /></a> </span
+            ><span
+              ><a
+                href="https://podcasts.apple.com/no/podcast/lykkepromilla/id1609264869"
+                ><ApplePodcastSVG /></a
+            ></span>
+          </div>
         </div>
       </div>
+
+      <!-- <WaveSVG /> -->
     </div>
-    <div>Dette er en podcast om...</div>
-    <footer>Footer</footer>
+    <div class="py-32 px-2 bg-yellow-50">
+      <p class="italic mb-2 text-xl">Kort historie lang...</p>
+      <p class="text-2xl">
+        Lykkepromilla er Norges #1 podcast. Vi er på
+        <span class="text-orange-800 underline"
+          ><a
+            href="https://open.spotify.com/show/3HQXcnXX9anhUwD88Z8WPC?si=72a23786e8a942cf"
+            >Spotify</a
+          ></span
+        >
+        og
+        <span class="text-orange-800 underline"
+          ><a
+            href="https://podcasts.apple.com/no/podcast/lykkepromilla/id1609264869"
+            >Apple Podcast</a
+          ></span
+        >.
+      </p>
+    </div>
+    <footer class="bg-gray-700 items-center flex flex-col pb-20">
+      <WaveSVG />
+
+      <div class="flex justify-center py-10">
+        <a href="https://www.instagram.com/lykkepromilla/"
+          ><InstagramSVG class="mr-5"
+        /></a>
+        <a href="mailto:wiu753@gmail.com"><EmailSVG /></a>
+      </div>
+
+      <div class="justify-center mt-6 text-orange-800">Ingen kommentar.</div>
+    </footer>
   </div>
 </template>
 
@@ -82,15 +72,5 @@ import Vue from 'vue'
 
 export default Vue.extend({
   name: 'IndexPage',
-  data() {
-    return {
-      mobileMenu: false
-    }
-  },
-  methods: {
-    toggleMobileMenu() {
-      this.mobileMenu = !this.mobileMenu
-    }
-  }
 })
 </script>
