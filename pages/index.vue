@@ -16,7 +16,7 @@
           <h1 class="text-6xl font-bold flex flex-col">
             <span>LYKKE</span><span class="-mt-10">PROMILLA</span>
           </h1>
-          <div class="flex justify-center">
+          <div class="flex ">
             <span
               ><a
                 href="https://open.spotify.com/show/3HQXcnXX9anhUwD88Z8WPC?si=72a23786e8a942cf"

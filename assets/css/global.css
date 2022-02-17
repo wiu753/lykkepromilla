@@ -1,7 +1,4 @@
 body {
   font-family: Poppins;
-}
-
-.fuck {
-  fill: orange;
+  -webkit-tap-highlight-color: transparent;
 }
