@@ -1,15 +1,15 @@
 <template>
   <div>
     <div
-      class="h-screen bg-gradient-to-b from-yellow-200 via-yellow-300 to-yellow-500 flex flex-col place-content-between"
+      class="h-screen bg-gradient-to-b from-yellow-200 via-yellow-300 to-yellow-500 flex flex-col"
     >
       <div class="flex flex-col">
-        <header class="ml-2 mt-2">
+        <header class="ml-4 mt-4">
           <Logo />
         </header>
 
         <!-- Hovedtekst -->
-        <div class="flex flex-col items-center mt-52">
+        <div class="flex flex-col mx-5 mt-52">
           <p class="text-l font-bold">
             Fire lærerstudenter som bare prater sjit.
           </p>
@@ -30,10 +30,8 @@
           </div>
         </div>
       </div>
-
-      <!-- <WaveSVG /> -->
     </div>
-    <div class="py-32 px-2 bg-yellow-50">
+    <div class="py-32 px-5 bg-yellow-50">
       <p class="italic mb-2 text-xl">Kort historie lang...</p>
       <p class="text-2xl">
         Lykkepromilla er Norges #1 podcast. Vi er på
