@@ -9,12 +9,12 @@
 
       <div class="flex items-center h-screen">
           <!-- Hovedtekst -->
-          <div class="flex flex-col mx-5 -mt-32">
+          <div class="flex flex-col mx-5 -mt-32 md:mx-8 lg:mx-12">
             <p class="text-l font-bold md:text-xl">
               Fire lærerstudenter som bare prater sjit.
             </p>
-            <h1 class="text-6xl font-bold flex flex-col md:text-7xl">
-              <span>LYKKE</span><span class="-mt-10">PROMILLA</span>
+            <h1 class="text-6xl font-bold flex flex-col md:text-7xl md:flex-row">
+              <span>LYKKE</span><span class="-mt-10 md:mt-0">PROMILLA</span>
             </h1>
             <div class="flex">
               <span
@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="py-32 px-5 bg-yellow-50 md:py-52">
+    <div class="py-32 px-5 bg-yellow-50 md:py-52 md:px-8 lg:px-12">
       <p class="italic mb-2 text-xl">Kort historie lang...</p>
       <p class="text-2xl">
         Lykkepromilla er Norges #1 podcast. Vi er på
