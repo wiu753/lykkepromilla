@@ -1,6 +1,6 @@
 <template>
   <svg
-    class="h-11 w-12 md:h-14 md:w-15"
+    class="h-11 w-12 md:h-14 md:w-15 fill-current scale-110 hover:text-purple-700 ease-in-out duration-200 transform"
     role="img"
     focusable="false"
     aria-hidden="true"

@@ -38,6 +38,7 @@
         <span class="text-orange-800 underline"
           ><a
             href="https://open.spotify.com/show/3HQXcnXX9anhUwD88Z8WPC?si=72a23786e8a942cf"
+            class="hover:text-red-700"
             >Spotify</a
           ></span
         >
@@ -45,6 +46,7 @@
         <span class="text-orange-800 underline"
           ><a
             href="https://podcasts.apple.com/no/podcast/lykkepromilla/id1609264869"
+            class="hover:text-red-700"
             >Apple Podcast</a
           ></span
         >.
