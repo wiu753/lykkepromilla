@@ -4,7 +4,7 @@
       class="h-screen bg-gradient-to-b from-yellow-200 via-yellow-300 to-yellow-500"
     >
       <header class="pt-4 pl-4">
-        <Logo />
+        <LykkepromillaLogo />
       </header>
 
       <div class="flex items-center h-screen lg:justify-center">
