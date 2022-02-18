@@ -1,7 +1,7 @@
 {
-  "name": "ykkepromilla",
+  "name": "lykkepromilla",
   "version": "1.0.0",
-  "description": "Lykkepromilla, fire lærerstudenter som bare prater sjit.",
+  "description": "Lykkepromilla, fire lærerstudenter som bare prater",
   "private": true,
   "scripts": {
     "dev": "nuxt",
