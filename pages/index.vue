@@ -19,8 +19,7 @@
             <span
               ><a
                 href="https://open.spotify.com/show/3HQXcnXX9anhUwD88Z8WPC?si=72a23786e8a942cf"
-                ><SpotifySVG class="mr-2"
-              /></a></span
+                ><SpotifySVG class="mr-2" /></a></span
             ><span
               ><a
                 href="https://podcasts.apple.com/no/podcast/lykkepromilla/id1609264869"

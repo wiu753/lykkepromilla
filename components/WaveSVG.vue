@@ -3,7 +3,9 @@
     <path
       class="fill-current text-yellow-50"
       fill-opacity="1"
-      d="M0,192L1440,96L1440,0L0,0Z">
-    ></path>
+      d="M0,192L1440,96L1440,0L0,0Z"
+    >
+      >
+    </path>
   </svg>
 </template>
