@@ -61,8 +61,6 @@
         /></a>
         <a href="mailto:wiu753@gmail.com"><EmailSVG /></a>
       </div>
-
-      <!-- <div class="justify-center mt-6 text-orange-800">Ingen kommentar.</div> -->
     </footer>
   </div>
 </template>
