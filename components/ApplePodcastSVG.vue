@@ -1,6 +1,6 @@
 <template>
   <svg
-    class="h-11 w-11"
+    class="h-11 w-11 md:h-14 md:w-14"
     role="img"
     focusable="false"
     aria-hidden="true"

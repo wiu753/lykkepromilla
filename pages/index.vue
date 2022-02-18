@@ -9,11 +9,11 @@
 
       <div class="flex items-center h-screen">
           <!-- Hovedtekst -->
-          <div class="flex flex-col mx-5">
-            <p class="text-l font-bold">
+          <div class="flex flex-col mx-5 -mt-32">
+            <p class="text-l font-bold md:text-xl">
               Fire lærerstudenter som bare prater sjit.
             </p>
-            <h1 class="text-6xl font-bold flex flex-col">
+            <h1 class="text-6xl font-bold flex flex-col md:text-7xl">
               <span>LYKKE</span><span class="-mt-10">PROMILLA</span>
             </h1>
             <div class="flex">
@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="py-32 px-5 bg-yellow-50">
+    <div class="py-32 px-5 bg-yellow-50 md:py-52">
       <p class="italic mb-2 text-xl">Kort historie lang...</p>
       <p class="text-2xl">
         Lykkepromilla er Norges #1 podcast. Vi er på
@@ -61,7 +61,7 @@
         <a href="mailto:wiu753@gmail.com"><EmailSVG /></a>
       </div>
 
-      <div class="justify-center mt-6 text-orange-800">Ingen kommentar.</div>
+      <!-- <div class="justify-center mt-6 text-orange-800">Ingen kommentar.</div> -->
     </footer>
   </div>
 </template>
