@@ -1,36 +1,37 @@
 <template>
   <div>
     <div
-      class="h-screen bg-gradient-to-b from-yellow-200 via-yellow-300 to-yellow-500 flex flex-col"
+      class="h-screen bg-gradient-to-b from-yellow-200 via-yellow-300 to-yellow-500"
     >
-      <div class="flex flex-col">
-        <header class="ml-4 mt-4">
-          <Logo />
-        </header>
+      <header class="pt-4 pl-4">
+        <Logo />
+      </header>
 
-        <!-- Hovedtekst -->
-        <div class="flex flex-col mx-5 mt-52">
-          <p class="text-l font-bold">
-            Fire lærerstudenter som bare prater sjit.
-          </p>
-          <h1 class="text-6xl font-bold flex flex-col">
-            <span>LYKKE</span><span class="-mt-10">PROMILLA</span>
-          </h1>
-          <div class="flex ">
-            <span
-              ><a
-                href="https://open.spotify.com/show/3HQXcnXX9anhUwD88Z8WPC?si=72a23786e8a942cf"
-                ><SpotifySVG class="mr-2"
-              /></a> </span
-            ><span
-              ><a
-                href="https://podcasts.apple.com/no/podcast/lykkepromilla/id1609264869"
-                ><ApplePodcastSVG /></a
-            ></span>
+      <div class="flex items-center h-screen">
+          <!-- Hovedtekst -->
+          <div class="flex flex-col mx-5">
+            <p class="text-l font-bold">
+              Fire lærerstudenter som bare prater sjit.
+            </p>
+            <h1 class="text-6xl font-bold flex flex-col">
+              <span>LYKKE</span><span class="-mt-10">PROMILLA</span>
+            </h1>
+            <div class="flex">
+              <span
+                ><a
+                  href="https://open.spotify.com/show/3HQXcnXX9anhUwD88Z8WPC?si=72a23786e8a942cf"
+                  ><SpotifySVG class="mr-2"
+                /></a> </span
+              ><span
+                ><a
+                  href="https://podcasts.apple.com/no/podcast/lykkepromilla/id1609264869"
+                  ><ApplePodcastSVG /></a
+              ></span>
+            </div>
           </div>
-        </div>
       </div>
     </div>
+
     <div class="py-32 px-5 bg-yellow-50">
       <p class="italic mb-2 text-xl">Kort historie lang...</p>
       <p class="text-2xl">
