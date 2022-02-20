@@ -89,6 +89,7 @@ export default {
 
   // Google fonts
   googleFonts: {
+    download:true, 
     families: {
       Poppins: true,
     },
