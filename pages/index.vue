@@ -58,7 +58,7 @@
         <a href="https://www.instagram.com/lykkepromilla/"
           ><InstagramSVG class="mr-5"
         /></a>
-        <a href="mailto:wiu753@gmail.com"><EmailSVG /></a>
+        <a href="mailto:info@lykkepromilla.no"><EmailSVG /></a>
       </div>
     </footer>
   </div>
