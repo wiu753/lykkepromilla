@@ -54,7 +54,7 @@
     <footer class="bg-gray-700 items-center flex flex-col pb-20 lg:pb-28">
       <WaveSVG />
 
-      <div class="flex justify-center py-10">
+      <div class="flex justify-center py-10 lg:py-0 lg:pb-10">
         <a href="https://www.instagram.com/lykkepromilla/"
           ><InstagramSVG class="mr-5"
         /></a>
